@@ -1,4 +1,4 @@
-Feature: Check login functionality
+Feature: Check login functionality with hooks
 
 	@Smoke
   Scenario: 

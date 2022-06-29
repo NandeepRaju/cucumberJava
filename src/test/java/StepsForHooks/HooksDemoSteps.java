@@ -12,10 +12,10 @@ import io.cucumber.java.BeforeStep;
 import io.cucumber.java.en.*;
 
 public class HooksDemoSteps {
-/*
+
 	WebDriver driver = null;
 
-	@Before(value="@Smoke", order=1)
+	@Before(order=1)//(value="@Smoke", order=1)
 	public void browserSetup() {
 		System.out.println("I am inside the browserSetup");
 		String projectPath = System.getProperty("user.dir");
@@ -66,5 +66,5 @@ public class HooksDemoSteps {
 
 	@Then("User is navigated to the home page")
 	public void user_is_navigated_to_the_home_page() {}
-*/
+
 }
