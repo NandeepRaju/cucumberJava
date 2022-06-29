@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 
 public class LoginSteps {
 
-	/*
+
 	@Given("^user is on login page$") public void user_is_on_login_page() {
 		System.out.println("Indside step- user is on login page"); }
 
@@ -22,6 +22,6 @@ public class LoginSteps {
 	@Then("user is navigated to the home page") public void
 	user_is_navigated_to_the_home_page() {
 		System.out.println("Indside step- user is navigated to the home page"); }
-	 */
+	 
 
 }

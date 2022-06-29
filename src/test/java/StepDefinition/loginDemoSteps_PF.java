@@ -16,7 +16,7 @@ public class loginDemoSteps_PF {
 	LoginPage_PF login;
 	HomePage_PF home;
 	
-	@Given("Browser is open")
+	@Given("Browser is open-PF")
 	public void browser_is_open() {
 		String projectPath = System.getProperty("user.dir");
 		System.out.println("Project path is: "+ projectPath);
@@ -28,13 +28,13 @@ public class loginDemoSteps_PF {
 		driver.manage().window().maximize();
 	}
 
-	@And("User is on Login page")
+	@And("User is on Login page-PF")
 	public void user_is_on_login_page() throws InterruptedException {
 		driver.navigate().to("https://example.testproject.io/web/");
 		Thread.sleep(2000);
 	}
 
-	@When("^User enters (.*) & (.*)$")
+	@When("^User enters (.*) & (.*)-PF$")
 	public void user_enters_username_Password(String username, String password) throws InterruptedException {
 		login = new LoginPage_PF(driver);
 		//driver.findElement(By.id("name")).sendKeys(username);
@@ -44,14 +44,14 @@ public class loginDemoSteps_PF {
 		Thread.sleep(2000);
 	}
 
-	@And("Clicks on Login")
+	@And("Clicks on Login-PF")
 	public void clicks_on_Login() throws InterruptedException {
 		//driver.findElement(By.id("login")).click();
 		login.clickOnLogin();
 		Thread.sleep(2000);
 	}
 
-	@Then("User is navigated to Home page")
+	@Then("User is navigated to Home page-PF")
 	public void user_is_navigated_to_home_page() throws InterruptedException {
 		home = new HomePage_PF(driver);
 		//driver.findElement(By.id("logout")).isDisplayed();

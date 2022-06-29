@@ -12,7 +12,7 @@ import io.cucumber.java.en.*;
 public class GoogleSearchSteps {
 
 	WebDriver driver = null;
-	/*
+
 	@Given("^Browser is open$")
 	public void Browser_is_open() {
 		System.out.println("Browser is open");
@@ -59,5 +59,5 @@ public class GoogleSearchSteps {
 		driver.close();
 		driver.quit();
 	}
-	 */
+	 
 }

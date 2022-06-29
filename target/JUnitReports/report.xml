@@ -1,21 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="3.492">
-<testcase classname="Check login functionality" name="_2" time="3.322">
-<system-out><![CDATA[Given User is on login page.................................................passed
-When User enters valid username and password................................passed
-And Clicks on login button..................................................passed
-Then User is navigated to the home page.....................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="78.562">
+<testcase classname="feature to test google search functionality" name="Validate google search is working" time="19.996">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And User is on google search page...........................................passed
+When User enters a search text in search box................................passed
+And Hits a enter............................................................passed
+Then User is navigated to search results....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Check login functionality" name="_3" time="0.006">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given User is on login page.................................................passed
-When User enters valid username and password................................passed
-And Clicks on login button..................................................passed
-Then User is navigated to the home page.....................................passed
-
-StackTrace:
-java.lang.NullPointerException
-	at StepsForHooks.HooksDemoSteps.tearDown(HooksDemoSteps.java:39)
-]]></failure>
+<testcase classname="Feature to test login functionality" name="Check login is successful with valid credentials" time="0.002">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login Functoinality" name="Check login is successful with valid credentials" time="14.569">
+<system-out><![CDATA[Given Browser is open-PF....................................................passed
+And User is on Login page-PF................................................passed
+When User enters Nandeep & 12345-PF.........................................passed
+And Clicks on Login-PF......................................................passed
+Then User is navigated to Home page-PF......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login Functoinality" name="Check login is successful with valid credentials 2" time="14.553">
+<system-out><![CDATA[Given Browser is open-PF....................................................passed
+And User is on Login page-PF................................................passed
+When User enters Nandy & 12345-PF...........................................passed
+And Clicks on Login-PF......................................................passed
+Then User is navigated to Home page-PF......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login Functoinality" name="Check login is successful with valid credentials" time="14.546">
+<system-out><![CDATA[Given Browser is open-POM...................................................passed
+And User is on Login page-POM...............................................passed
+When User enters Nandeep & 12345-POM........................................passed
+And Clicks on Login-POM.....................................................passed
+Then User is navigated to Home page-POM.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login Functoinality" name="Check login is successful with valid credentials 2" time="14.72">
+<system-out><![CDATA[Given Browser is open-POM...................................................passed
+And User is on Login page-POM...............................................passed
+When User enters Nandy & 12345-POM..........................................passed
+And Clicks on Login-POM.....................................................passed
+Then User is navigated to Home page-POM.....................................passed
+]]></system-out>
 </testcase>
 </testsuite>

@@ -10,7 +10,7 @@ public class loginPage {
 	private By txtBox_UserName = By.id("name");
 	private By txtBox_Password = By.id("password");
 	private By btn_Login = By.id("login");
-	private By btn_Logout = By.id("logout");
+	
 
 	public loginPage(WebDriver driver) {
 		this.driver = driver;	
@@ -29,10 +29,6 @@ public class loginPage {
 
 	public void clickLogin() {
 		driver.findElement(btn_Login).click();
-	}
-	
-	public void checkLogoutIsDisplayed() {
-		driver.findElement(btn_Logout).isDisplayed();
 	}
 
 	public void validLogin(String username, String password) {

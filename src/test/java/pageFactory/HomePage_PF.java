@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage_PF {
-	
+
 	@FindBy(id="logout")
 	WebElement btn_logout;
 	
