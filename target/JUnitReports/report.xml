@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="3.492">
+<testcase classname="Check login functionality" name="_2" time="3.322">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters valid username and password................................passed
+And Clicks on login button..................................................passed
+Then User is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login functionality" name="_3" time="0.006">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given User is on login page.................................................passed
+When User enters valid username and password................................passed
+And Clicks on login button..................................................passed
+Then User is navigated to the home page.....................................passed
+
+StackTrace:
+java.lang.NullPointerException
+	at StepsForHooks.HooksDemoSteps.tearDown(HooksDemoSteps.java:39)
+]]></failure>
+</testcase>
+</testsuite>
