@@ -1,0 +1,13 @@
+pages\homePage.class
+StepDefinition\loginDemoSteps_PF.class
+StepDefinition\loginDemoSteps_POM.class
+StepDefinition\loginDemoSteps.class
+StepDefinition\TestRunnerForHooks.class
+StepDefinition\LoginSteps.class
+StepsForBackground\BackgroundDemoSteps.class
+pageFactory\HomePage_PF.class
+StepDefinition\Solution.class
+StepsForHooks\HooksDemoSteps.class
+pages\loginPage.class
+pageFactory\LoginPage_PF.class
+StepDefinition\GoogleSearchSteps.class

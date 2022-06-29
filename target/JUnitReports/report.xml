@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.375">
-<testcase classname="Check login functionality with hooks" name="_2" time="3.219">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.226">
+<testcase classname="Check login functionality with hooks" name="_2" time="2.203">
 <system-out><![CDATA[Given User is on login page.................................................passed
 When User enters valid username and password................................passed
 And Clicks on login button..................................................passed
